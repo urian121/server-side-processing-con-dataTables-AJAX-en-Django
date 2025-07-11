@@ -14,11 +14,6 @@ Este proyecto es un **sistema de gestión de productos** desarrollado con Django
 - ⚡ **Actualización automática**: Refresco de datos cada 30 segundos
 - 🌐 **Localización**: Interfaz completamente en español
 
-### Tecnologías Utilizadas:
-- **Backend**: Django 4.2.23, Python
-- **Frontend**: Bootstrap 5, jQuery, DataTables
-- **Base de datos**: MySQL
-- **Iconos**: Bootstrap Icons
 
 ## Resumen de Pasos
 
@@ -35,7 +30,7 @@ Este proyecto es un **sistema de gestión de productos** desarrollado con Django
   - Retorna respuesta JSON con formato requerido por DataTables
 
 ### 3. Configuración de URLs
-- Ruta para la vista principal: `/productos/`
+- Ruta para la vista principal: `/`
 - Ruta para endpoint AJAX: `/productos/ajax/`
 
 ### 4. Template HTML
@@ -60,23 +55,9 @@ Este proyecto es un **sistema de gestión de productos** desarrollado con Django
 - **Búsqueda en tiempo real**: El filtrado se realiza en el servidor
 - **Paginación eficiente**: Solo se transfieren los datos de la página solicitada
 
-## Estructura del Proyecto
-```
-datatable_project/
-├── core/
-│   ├── models.py          # Modelo Producto
-│   ├── views.py           # Vistas principales y AJAX
-│   ├── urls.py            # Configuración de rutas
-│   └── templates/core/
-│       └── index.html # Template con DataTables
-├── datatable_project/
-│   ├── settings.py        # Configuración Django
-│   └── urls.py            # URLs principales
-└── manage.py
-```
 
 ## Flujo de Funcionamiento
-1. Usuario accede a `/productos/`
+1. Usuario accede a `/`
 2. Se carga el template HTML con DataTables
 3. DataTables hace petición AJAX a `/productos/ajax/`
 4. El servidor procesa la petición (paginación, filtrado)
