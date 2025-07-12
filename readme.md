@@ -63,3 +63,17 @@ Este proyecto es un **sistema de gestión de productos** desarrollado con Django
 4. El servidor procesa la petición (paginación, filtrado)
 5. Se retorna JSON con los datos solicitados
 6. DataTables renderiza la tabla con los datos recibidos
+
+## 🙌 Cómo puedes apoyar 📢:
+
+✨ **Comparte este proyecto** con otros desarrolladores para que puedan beneficiarse 📢.
+
+☕ **Invítame un café o una cerveza 🍺**:
+   - [Paypal](https://www.paypal.me/iamdeveloper86) (`iamdeveloper86@gmail.com`).
+
+### ⚡ ¡No olvides SUSCRIBIRTE a la [Comunidad WebDeveloper](https://www.youtube.com/WebDeveloperUrianViera?sub_confirmation=1)!
+
+
+#### ⭐ **Déjanos una estrella en GitHub**:
+   - Dicen que trae buena suerte 🍀.
+**Gracias por tu apoyo 🤓.**
